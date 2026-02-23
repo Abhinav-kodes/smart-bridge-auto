@@ -18,7 +18,14 @@ An automation script for FutureSkills Prime. This bot seamlessly handles course 
 
 Before you can run this script, you must have **Node.js** installed on your computer.
 
-### Windows / macOS
+### How to check
+```bash
+node -v
+npm -v
+```
+⚠️ If version not visible then download the package according your system
+
+### Windows
 Download and install the **LTS (Long Term Support)** version from:
 https://nodejs.org/
 
@@ -27,6 +34,17 @@ https://nodejs.org/
 ```bash
 sudo apt update
 sudo apt install nodejs npm
+```
+### MacOS
+Install using Homebrew
+
+If Homebrew not installed:
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+Then install Node:
+```bash
+brew install node
 ```
 
 ### Verify Installation
